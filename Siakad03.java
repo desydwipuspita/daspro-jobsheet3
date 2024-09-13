@@ -1,8 +1,7 @@
 import java.util.Scanner;
 
-/**
- * Siakad03
- */
+ // Siakad03
+
 public class Siakad03 {
 
     public static void main(String[] args) {
