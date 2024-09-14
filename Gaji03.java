@@ -7,7 +7,7 @@ public class Gaji03 {
 
        Scanner sc = new Scanner(System.in);
 
-       double jmlGaji, jmlJamkerja, upahPerjam, jmlGajiAkhir, jmlPajak, jmlBonus, pajak = 0.05, bonus = 0.1;
+       double jmlGaji, jmlJamkerja, upahPerjam, jmlGajiAkhir, jmlPajak, jmlBonus, pajak = 5 / 100, bonus = 10 / 100;
 
        System.out.println("Masukkan Jumlah Jam Kerja\t: ");
        jmlJamkerja = sc.nextDouble();
