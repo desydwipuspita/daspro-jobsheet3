@@ -1,10 +1,11 @@
 import java.util.Scanner;
 
-// Kafe03
+// Kafe03 - Studi Kasus Transaksi di Kafe
 
 public class Kafe03 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+
         boolean keanggotaan;
         int jmlKopi, jmlTeh, jmlRoti;
         double hargaKopi = 12000.0, hargaTeh = 7000.0, hargaRoti = 20000.0;

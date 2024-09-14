@@ -1,11 +1,13 @@
 import java.util.Scanner;
 
- // Siakad03
+ // Jobsheet 3 - Studi Kasus Pengisian Nilai Mahasiswa di SIAKAD
 
 public class Siakad03 {
 
     public static void main(String[] args) {
+
         Scanner sc = new Scanner(System.in);
+
         String nama, nim, kelas;
         byte absen;
         double nilaiKuis, nilaiTugas, nilaiUjian, nilaiUTS, nilaiUAS, nilaiAkhir;
@@ -34,7 +36,7 @@ public class Siakad03 {
        
         nilaiAkhir = (nilaiKuis / 100 * 20) + (nilaiTugas / 100 * 15) + (nilaiUTS / 100 * 30) + (nilaiUAS / 100 * 35);
        
-        System.out.printf("Output:\nNAma\t: %s\nNIM\t: %s\nKelas\t: %s\nAbsen\t: %s\nNilai Akhir\t: %s", nama, nim, kelas, absen, nilaiAkhir);
+        System.out.printf("Output:\nNama\t\t: %s\nNIM\t\t: %s\nKelas\t\t: %s\nAbsen\t\t: %s\nNilai Akhir\t: %s", nama, nim, kelas, absen, nilaiAkhir);
     
 
     }
